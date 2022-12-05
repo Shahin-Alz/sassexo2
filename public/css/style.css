@@ -1,0 +1,97 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+}
+.nav h1 {
+  margin: 15px;
+  color: white;
+}
+.nav .right {
+  margin: 15px;
+}
+.nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+.nav a:hover {
+  background-color: blue;
+}
+
+.sec1 {
+  height: 400px;
+  width: 100%;
+  background-image: url("../img/bg-header.png");
+}
+
+.sec2 {
+  background-color: #e8e6e0;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+}
+.sec2 p {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 50px;
+}
+.sec2 .span1 {
+  background-color: #26a2cc;
+}
+.sec2 .span2 {
+  color: #26a2cc;
+}
+.sec2 .span3 {
+  font-weight: bold;
+}
+
+.sec3 {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.sec3 .enfantsec3 {
+  margin: 30px;
+  padding: 20px;
+  background-color: #e2e0e0;
+  text-align: center;
+  border-radius: 20px;
+}
+.sec3 .enfantsec3 .blue {
+  color: #66a8ce;
+}
+
+.enfantsec4 {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.enfantsec4 .parasec4 {
+  margin: 50px;
+  height: 100px;
+}
+.enfantsec4 .parasec4 button {
+  background-color: #26a2cc;
+  border-radius: 5px;
+  border: none;
+  width: 130px;
+  height: 50px;
+}
+.enfantsec4 .cardsec4 {
+  display: flex;
+  margin: 50px;
+}
+.enfantsec4 .cardsec4 .card {
+  margin: 2px;
+  background-color: #38485f;
+  height: 250px;
+  width: 200px;
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
